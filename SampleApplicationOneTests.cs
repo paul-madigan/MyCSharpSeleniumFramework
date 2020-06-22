@@ -10,9 +10,8 @@ namespace MyFramework
 {
     [TestClass]
     [TestCategory("SampleApplicationOne")]
-    public class SampleApplicationOneTests
+    public class SampleApplicationOneTests : BaseTest
     {
-        private IWebDriver Driver { get; set; }
         internal SampleApplicationPage SampleAppPage { get; private set; }
         internal TestUser TheTestUser { get; private set; }
 
@@ -34,13 +33,6 @@ namespace MyFramework
 
             var UltimateQAHomePage = SampleAppPage.FilloutFormandSubmit(TheTestUser);
             Assert.IsTrue(UltimateQAHomePage.IsVisible, "UltimateQA home page was not visible");
-        }
-
-
-        private IWebDriver GetChromeDriver()
-        {
-            var outPutDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            return new ChromeDriver(outPutDirectory);
         }
 
     }

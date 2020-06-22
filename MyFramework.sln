@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFramework", "MyFramework.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8C9615E5-B2AC-4C76-95C9-0C97781A2161}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationResources", "..\AutomationResources\AutomationResources.csproj", "{A8E436E2-4FF9-4523-A202-B7B93584E0C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationResources", "AutomationResources\AutomationResources.csproj", "{A8E436E2-4FF9-4523-A202-B7B93584E0C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
